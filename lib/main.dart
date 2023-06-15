@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grid_view/home_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: HomeScreen(),
+      home: Scaffold()
     );
   }
 }
