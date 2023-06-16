@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grid_view/ui/sign_up/sign_up.dart';
 
 
 void main() {
@@ -18,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: Scaffold(),
+      home: SignUpScreen(),
     );
   }
 }
